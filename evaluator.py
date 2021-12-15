@@ -29,11 +29,6 @@ def check_results(code_output, valid_output):
         return False
     return True
 
-def main():
-    test_case_path = "test.txt"
-    output_path = "test1.txt"
+def evaluator(test_case_path: str, output_path: str):
     test_case = get_valid_res(test_case_path)
-    print(check_results(get_results(output_path), test_case))
-
-if __name__ == "__main__":
-    main()
+    return (check_results(get_results(output_path), test_case))

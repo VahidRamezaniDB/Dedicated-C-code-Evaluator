@@ -1,2 +1,8 @@
 *.txt
 .vscode
+*.c
+*.cpp
+*.exe
+codes
+*.csv
+__pycache__
