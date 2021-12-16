@@ -1,8 +1,7 @@
-*.txt
+*.txt ~test_case.txt
 .vscode
 *.c
 *.cpp
 *.exe
-codes
-*.csv
+grades.csv
 __pycache__
