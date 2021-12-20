@@ -11,9 +11,9 @@ The C program to be evaluated must write it's output in an output file.
     Modify "test_cases/test_case.txt" file as you wish. It is the valid output that your code output will be compared to.
 
 * ### at last:
-    write yore student number, also yore C file name, in the first column of the "student_number_sheet.csv" file.
-    **note** that your C file name format must be in the following format:
+    write yore student number, which is also your CPP file name, in the first column of the "student_number_sheet.csv" file.
+    **note** that your CPP file name format must be in the following format:
 
-    **"student_number".c**
+    **"student_number".cpp**
 
 now just run the [run.bat](run.bat) file. You can see the result inside the grades.csv.
